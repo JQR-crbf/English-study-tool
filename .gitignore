@@ -1,0 +1,44 @@
+# Environment files
+.env
+.env.*
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+
+# Desktop application files (to avoid large binaries)
+desktop/
+*.exe
+*.app
+*.dmg
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Media files
+data/media/*
+
+# Claude settings
+.claude/settings.local.json
